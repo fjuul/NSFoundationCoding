@@ -11,7 +11,7 @@ jobs:
     runs-on: macos-latest
 
     steps:
-    - uses: maxim-lobanov/setup-xcode@v1
+    - uses: maxim-lobanov/setup-xcode@39c72beaae110dbae2076e2a52c179a8ada929e2  # v1.2.1
       with:
         xcode-version: latest-stable
 
